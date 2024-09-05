@@ -12,8 +12,6 @@ import tensorflow as tf
 from tensorflow.keras import layers
 
 # Load labels
-
-# Load labels
 label_path = '' # the dataset source, such as 'dataset/IEMOCAP_full_release/combined_labels.npy.npz'
 labels = np.load(label_path, allow_pickle=True)['arr_0']
 
